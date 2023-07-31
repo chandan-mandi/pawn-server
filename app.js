@@ -11,10 +11,10 @@ app.use(express.json());
 app.use(cors());
 
 // make router apis
-// app.use("/api/v1/product", productRoute);
-// app.use("/api/v1/category", categoryRoute);
-// app.use("/api/v1/review", reviewRouter)
-// app.use("/api/v1/user", userRouter)
+app.use("/api/v1/product", productRoute);
+app.use("/api/v1/category", categoryRoute);
+app.use("/api/v1/review", reviewRouter)
+app.use("/api/v1/user", userRouter)
 
 
 
