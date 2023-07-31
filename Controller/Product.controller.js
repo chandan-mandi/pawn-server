@@ -7,7 +7,7 @@ const Products = require("../models/product.model");
 // find all product 
 module.exports.products = async (req, res, next) => {
   const products = await Products.find({});
-  console.log("object");
+  console.log("products");
   res.send(products)
 }
 //  find product with id
